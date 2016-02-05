@@ -10,4 +10,6 @@
 
 @interface PhotoCollectionViewCell : UICollectionViewCell
 
+@property (nonatomic, weak) IBOutlet UIImageView *ablumImageView;
+
 @end

@@ -13,6 +13,7 @@
 		8EC7D1941C6343FF00942BF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC7D1921C6343FF00942BF6 /* Main.storyboard */; };
 		8EC7D1961C6343FF00942BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC7D1951C6343FF00942BF6 /* Assets.xcassets */; };
 		8EC7D1991C6343FF00942BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC7D1971C6343FF00942BF6 /* LaunchScreen.storyboard */; };
+		8EC7D1A21C6345A100942BF6 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC7D1A11C6345A100942BF6 /* PhotoCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8EC7D1951C6343FF00942BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EC7D1981C6343FF00942BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EC7D19A1C6343FF00942BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC7D1A01C6345A100942BF6 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		8EC7D1A11C6345A100942BF6 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				8EC7D1971C6343FF00942BF6 /* LaunchScreen.storyboard */,
 				8EC7D19A1C6343FF00942BF6 /* Info.plist */,
 				8EC7D1891C6343FF00942BF6 /* Supporting Files */,
+				8EC7D1A01C6345A100942BF6 /* PhotoCollectionViewCell.h */,
+				8EC7D1A11C6345A100942BF6 /* PhotoCollectionViewCell.m */,
 			);
 			path = PhotoSeletced;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EC7D1911C6343FF00942BF6 /* ViewController.m in Sources */,
+				8EC7D1A21C6345A100942BF6 /* PhotoCollectionViewCell.m in Sources */,
 				8EC7D18E1C6343FF00942BF6 /* AppDelegate.m in Sources */,
 				8EC7D18B1C6343FF00942BF6 /* main.m in Sources */,
 			);
